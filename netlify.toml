@@ -1,0 +1,6 @@
+[[plugins]]
+package = "notablog"
+
+[build]
+  publish = "public/"
+  command = "notablog generate ."
